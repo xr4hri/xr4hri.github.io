@@ -19,7 +19,7 @@ The fonts are self-hosted on purpose: embedding Google Fonts directly transfers 
 
 ## Deploy on GitHub Pages
 
-1. Create a GitHub organization `xr4hri` (or use an existing one) and a repository named `xr4hri.github.io`.
+1. Repository: https://github.com/xr4hri/xr4hri.github.io
 2. Push the contents of this folder to the `main` branch.
 3. In the repository settings under Pages, choose "Deploy from a branch", branch `main`, folder `/ (root)`.
 4. The site is then available at https://xr4hri.github.io/.
@@ -34,9 +34,6 @@ The fonts are self-hosted on purpose: embedding Google Fonts directly transfers 
 ## Open TODOs
 
 Search the files for `TODO`:
-- Discord invite and mailing list link on the home page
-- GitHub organization name in the footer link
-- Exact day and time of the ISMAR 2026 workshop
 - HRI 2027: replace the status note with the call for papers once accepted
 
 ## Archive
