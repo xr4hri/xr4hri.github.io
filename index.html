@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XR4HRI – Extended Reality for Human-Robot Interaction</title>
+  <meta name="description" content="XR4HRI is a workshop series on extended reality (VR, AR, MR) for human-robot interaction, formerly known as VAM-HRI (2018–2025).">
+  <meta property="og:title" content="XR4HRI – Extended Reality for Human-Robot Interaction">
+  <meta property="og:description" content="Workshop series on XR for human-robot interaction, formerly VAM-HRI.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="./">XR<span>4</span>HRI</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="hri2027/">HRI 2027</a></li>
+          <li><a href="ismar2026/">ISMAR 2026</a></li>
+          <li><a href="#editions">All editions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Extended Reality for Human-Robot Interaction</h1>
+          <p class="lead">A workshop series for researchers working where robots meet virtual, augmented, and mixed reality. Formerly VAM-HRI, running since 2018.</p>
+          <div class="actions">
+            <a class="button" href="hri2027/">See plans for HRI 2027</a>
+            <a href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <svg class="hero-art" viewBox="150 60 340 340" role="img" aria-labelledby="art-title">
+          <title id="art-title">A robot arm with a dashed virtual copy showing where it will move next to grasp an object</title>
+          <line class="table" x1="330" y1="370" x2="478" y2="370"/>
+          <rect class="real" x="180" y="376" width="120" height="10" rx="2"/>
+          <rect class="real" x="212" y="328" width="56" height="52" rx="4"/>
+
+          <!-- physical arm -->
+          <g class="real" transform="translate(240 330) rotate(-110)">
+            <rect x="-4" y="-17" width="158" height="34" rx="17"/>
+            <g transform="translate(150 0) rotate(70)">
+              <rect x="-4" y="-13" width="118" height="26" rx="13"/>
+              <g transform="translate(110 0) rotate(20)">
+                <rect x="0" y="-10" width="18" height="20" rx="3"/>
+                <rect x="16" y="-16" width="24" height="7" rx="2"/>
+                <rect x="16" y="9" width="24" height="7" rx="2"/>
+              </g>
+              <circle cx="0" cy="0" r="7" fill="var(--bg)"/>
+            </g>
+            <circle cx="0" cy="0" r="9" fill="var(--bg)"/>
+          </g>
+
+          <!-- virtual overlay: planned path, ghost arm, target -->
+          <g class="ghost-group">
+            <path class="path" d="M311 105 C 395 100, 440 210, 418 340"/>
+            <g class="ghost" transform="translate(240 330) rotate(-40)">
+              <rect x="-4" y="-17" width="158" height="34" rx="17"/>
+              <g transform="translate(150 0) rotate(95)">
+                <rect x="-4" y="-13" width="118" height="26" rx="13"/>
+                <g transform="translate(110 0) rotate(35)">
+                  <rect x="0" y="-10" width="18" height="20" rx="3"/>
+                  <rect x="16" y="-16" width="24" height="7" rx="2"/>
+                  <rect x="16" y="9" width="24" height="7" rx="2"/>
+                </g>
+              </g>
+            </g>
+            <rect class="target" x="410" y="352" width="16" height="17" rx="2"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="next-title">
+      <div class="wrap">
+        <div class="next">
+          <div>
+            <h2 id="next-title">Next: XR4HRI at HRI 2027</h2>
+            <p>Our workshop proposal for the ACM/IEEE International Conference on Human-Robot Interaction 2027 in Santa Clara, CA, USA is under review. The call for papers follows once the workshop is accepted.</p>
+          </div>
+          <a class="button" href="hri2027/">Workshop plans</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section-head prose">
+          <h2 id="about-title">What the workshop is about</h2>
+          <p>Humans and robots working together need a shared understanding of goals, intentions, and context. XR gives both a shared spatial medium: it can show a robot's planned motion before it happens, reveal its internal state, let people teleoperate from afar, or prototype robot behaviour before any hardware exists.</p>
+          <p>XR4HRI brings together researchers from human-robot interaction, robotics, HCI, and the XR community to discuss these systems, share early results, and try out each other's demos.</p>
+        </div>
+        <div class="two-col topics">
+          <div>
+            <h3>Technologies and concepts</h3>
+            <ul>
+              <li>Registration and tracking</li>
+              <li>Visualizing data, intent, communication, and feedback</li>
+              <li>Interaction concepts</li>
+              <li>Touch, haptics, and pseudo-haptics</li>
+              <li>Safety and risk management</li>
+              <li>Usability and user experience</li>
+              <li>Robotic virtual twins for teleoperation or simulation</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Robots and application domains</h3>
+            <ul>
+              <li>Stationary, mobile, and flying robots</li>
+              <li>Functional, humanoid, and zoomorphic robots</li>
+              <li>Teleoperated, shared-control, and peer-to-peer settings</li>
+              <li>Industrial, construction, medical, and automotive applications</li>
+              <li>Assistive, consumer, and social robotics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="editions" aria-labelledby="editions-title">
+      <div class="wrap">
+        <div class="section-head prose">
+          <h2 id="editions-title">All editions</h2>
+          <p>The series started in 2018 as VAM-HRI at the ACM/IEEE HRI conference. In 2026 it became XR4HRI and additionally moved to ISMAR to strengthen the bridge between the HRI and XR communities.</p>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr><th scope="col">Year</th><th scope="col">Workshop</th><th scope="col">Conference</th><th scope="col">Location</th></tr>
+            </thead>
+            <tbody>
+              <tr class="xr"><td class="year">2027</td><td><a href="hri2027/">XR4HRI at HRI 2027</a> (proposal under review)</td><td>ACM/IEEE HRI</td><td>Santa Clara, USA</td></tr>
+              <tr class="xr"><td class="year">2026</td><td><a href="ismar2026/">XR4HRI at ISMAR 2026</a></td><td>IEEE ISMAR</td><td>Bari, Italy</td></tr>
+              <tr class="series-break"><td colspan="4">As VAM-HRI: Virtual, Augmented, and Mixed Reality for Human-Robot Interaction</td></tr>
+              <tr><td class="year">2025</td><td><a href="https://vam-hri.github.io/previous/2025/">8th VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Melbourne, Australia</td></tr>
+              <tr><td class="year">2024</td><td><a href="https://vam-hri.github.io/previous/2024/">7th VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Boulder, USA</td></tr>
+              <tr><td class="year">2023</td><td><a href="https://vam-hri.github.io/previous/2023/">6th VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Stockholm, Sweden</td></tr>
+              <tr><td class="year">2022</td><td><a href="https://vam-hri.github.io/previous/2022/">5th VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Online</td></tr>
+              <tr><td class="year">2021</td><td><a href="https://vam-hri.github.io/previous/2021/">4th VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Online</td></tr>
+              <tr><td class="year">2020</td><td><a href="https://vam-hri.github.io/previous/2020/">3rd VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Online</td></tr>
+              <tr><td class="year">2019</td><td><a href="https://vam-hri.github.io/previous/2019/">2nd VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Daegu, South Korea</td></tr>
+              <tr><td class="year">2018</td><td><a href="https://vam-hri.github.io/previous/2018/">1st VAM-HRI</a></td><td>ACM/IEEE HRI</td><td>Chicago, USA</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap"><div class="prose">
+        <h2 id="contact-title">Stay in touch</h2>
+        <p>Questions, ideas for the next edition, or interested in joining the organizing team? Write to <a href="mailto:xr4hri@gmail.com">xr4hri@gmail.com</a>.</p>
+        <!-- TODO: add the real Discord invite and mailing list links, or remove this paragraph -->
+        <p>Join the community on <a href="#TODO-discord">Discord</a> to follow calls for papers and continue discussions between workshops.</p>
+      </div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>XR4HRI, formerly VAM-HRI, 2018–2027</p>
+      <p><a href="https://github.com/TODO-org/xr4hri.github.io">Website source on GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
